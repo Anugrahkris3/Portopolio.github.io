@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f4f4f9, #e0e0e0);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 480px) {
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #e7e0e0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 40px;
+    transition: transform 0.3s ease-in-out;
+    }
+}
+.container:hover {
+    transform: scale(1.01);
+}
+.profile-header {
+    background-color: #193148;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+    .profile-img {
+        width: 100px;
+        height: 100px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+    }
+}
+.profile-img:hover {
+    transform: scale(1.1);
+}
+h1 {
+    margin: 10px 0;
+    color: #829cb7;
+}
+.profile-info p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+.skills, .projects {
+    margin-top: 20px;
+}
+.skills ul, .projects ul {
+    list-style: none;
+    padding: 0;
+}
+.skills li, .projects li {
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #aeaebc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+}
+.skills li:hover, .projects li:hover {
+    background-color: #d3d3d9;
+    transform: translateX(5px);
+}
+.skills li span, .projects li span {
+    font-weight: bold;
+    flex: 1;
+}
+.skills li img, .projects li img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.projects li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+.projects li button {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 10px 15px;
+    background-color: #0a223a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.projects li button:hover {
+    background-color: #4a637d;
+}
